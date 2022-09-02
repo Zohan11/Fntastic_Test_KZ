@@ -1,8 +1,4 @@
 ﻿  Converter_StrToBrackets.cpp
 C:\JobTests\Fntastic\Converter_Test_KZ\Converter_StrToBrackets.h(50,22): warning C4018: '<': signed/unsigned mismatch
-<<<<<<< HEAD
-C:\JobTests\Fntastic\Converter_Test_KZ\Converter_StrToBrackets.h(138,22): warning C4018: '<': signed/unsigned mismatch
-=======
-C:\JobTests\Fntastic\Converter_Test_KZ\Converter_StrToBrackets.h(139,22): warning C4018: '<': signed/unsigned mismatch
->>>>>>> 4a5299d20032e15ab4acce0ff54eccaf19e76583
+C:\JobTests\Fntastic\Converter_Test_KZ\Converter_StrToBrackets.h(137,22): warning C4018: '<': signed/unsigned mismatch
   Fntastic_Test_KZ.vcxproj -> C:\JobTests\Fntastic\Converter_Test_KZ\Debug\Fntastic_Test_KZ.exe
