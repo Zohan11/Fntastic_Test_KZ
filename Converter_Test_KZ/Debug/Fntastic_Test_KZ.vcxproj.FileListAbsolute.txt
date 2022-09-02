@@ -1,0 +1,2 @@
+C:\JobTests\Fntastic\Fntastic_Test_KZ\Debug\Fntastic_Test_KZ.exe
+C:\JobTests\Fntastic\Converter_Test_KZ\Debug\Fntastic_Test_KZ.exe
