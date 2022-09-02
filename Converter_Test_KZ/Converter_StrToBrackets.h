@@ -56,8 +56,16 @@ public:
 					break;
 				}
 
+<<<<<<< HEAD
 				_assignRelevantCharStructData(type);
 				_rObservedString[i] = _selectBracket(_rObservedString[i], i);
+=======
+				if (type != ECharType::WhiteSpace)
+				{
+					_assignRelevantCharStructData(type);
+					_rObservedString[i] = _selectBracket(_rObservedString[i], i);
+				}
+>>>>>>> 4a5299d20032e15ab4acce0ff54eccaf19e76583
 			}
 
 			_clearStructs();
@@ -73,7 +81,10 @@ private:
 	vector <CharStruct> _alphabet;
 	vector <CharStruct> _digits;
 	vector <CharStruct> _specialChars;
+<<<<<<< HEAD
 	vector <CharStruct> _whiteSpaces;
+=======
+>>>>>>> 4a5299d20032e15ab4acce0ff54eccaf19e76583
 
 	vector <CharStruct> *_pCurrentCharStruct = &_alphabet; // will be assigned one of CharStructs
 
@@ -119,7 +130,10 @@ private:
 				break;
 
 			case ECharType::WhiteSpace:
+<<<<<<< HEAD
 				_pCurrentCharStruct = &_whiteSpaces;
+=======
+>>>>>>> 4a5299d20032e15ab4acce0ff54eccaf19e76583
 				break;
 			
 			case ECharType::Invalid:
@@ -157,7 +171,10 @@ private:
 		_alphabet.clear();
 		_digits.clear();
 		_specialChars.clear();
+<<<<<<< HEAD
 		_whiteSpaces.clear();
+=======
+>>>>>>> 4a5299d20032e15ab4acce0ff54eccaf19e76583
 	}
 };
 
